@@ -1,0 +1,410 @@
+#wrapper {
+    width: 1000px;
+    margin: 15px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkblue;
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-color: rgb(0, 8, 255);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+	min-height: 10vh;
+     /* border: 4px solid black; */
+    /* border-radius: 5px; */
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+	font-size: 1.1em;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #61bb8e;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 20px;
+	min-height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 5px;
+    
+}
+p{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+li {
+    padding: 3px;
+    margin: 2px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    
+    text-align: center;
+	min-height: 10vh;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+footer p{
+    text-align: center;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+footer a:hover {
+	color: #61bb8e;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+footer > p{
+    font-size: .7rem;
+}
+
+/*
+classes
+
+may have some redundant and unused styles
+
+#wrapper {
+    width: 1000px;
+    margin: 15px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#label{
+    clear: both;
+    padding-top: 20px;
+    line-height: 2;
+}
+#center{
+    text-align: center;
+    padding: 10px;
+}
+#center1{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+#par{
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#par2{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contact{
+    width: 400px;
+    background-color: lightgray;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#pic {
+
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#NRB{
+    padding: 10px;
+}
+#poem {
+    line-height: 2.5;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#leftF {
+    float: left;
+    width: 490px;
+    margin-top: 22px;
+}
+#rightF {
+    float:inline-end;
+    font-size: small;
+    font-size: xx-small;
+    width: 120px;
+}
+#table {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+.center{
+    text-align: center;
+    padding: 10px;
+}
+
+ids
+
+.top {
+    
+    height: 80px;
+    padding: 0px;
+    margin-top: 10px;
+}
+.left {
+    width: 450px;
+    height: 190px;
+    padding: 0px;
+    padding-top: 35px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.float{
+    float: left;
+    width: 200px;
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+
+}
+.float2 {
+    float: right;
+    width:200px;
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+}
+.frmFloat{
+    float: left;
+    width: 500px;
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+}
+.frmFloat2{
+    float: right;
+    width: 500px;
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+}
+.aboutFloat{
+    width: 420px;
+    float: left;
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+
+}
+.aboutFloat2{
+    width: 420px;
+    float: right;
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+
+}
+.float3{
+    float:right;
+    margin-right: 150px;
+}
+.float4{
+    float: inline-start;
+}
+.bottom {
+    clear: both;
+    font-size: .8em;
+}
+
+
+elements
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: darkblue;
+    background-color: darkorange;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+fieldset {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+label{
+    line-height: 2;
+}
+
+input{
+    display: inline;
+    line-height: 1.5;
+}
+
+table {
+    background-color:lavender;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:aquamarine;
+    border: 1px solid black;
+}
+figcaption{
+    padding: 5px;
+    margin: 0px;
+    font-size: small;
+}
+video {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+mark {
+    background-color: gold;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+h1,h2,h3,h4 {
+    font-style: italic;
+    letter-spacing: .35em;
+    /*border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.65em;
+    color: crimson;
+}
+h2 {
+    font-size: 1.45em;
+}
+h3 {
+    font-size: 1.25em;
+
+}
+h4 {
+    font-size: 1.05em;
+}
+ul {
+    font-weight: bolder;
+    list-style-type: none;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color:darkgreen;
+    line-height: 1.6;
+}
+a:visited {
+    color:red;
+}
+a:hover {
+    color:cadetblue;
+    text-decoration: underline;
+}
+a:active {
+    color: blueviolet;
+}
+*/
