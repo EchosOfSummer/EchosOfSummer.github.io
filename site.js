@@ -1,3 +1,11 @@
+// Assignment 4
+const key = "It's a secret to everybody."
+const secret = "Shh! it's A Link to the Past! Again..."
+localStorage.setItem(key, secret)
+
+console.log('The secret is safe with me!')
+// console.log(localStorage.getItem(key))
+
 
 // orginally had function () , but changed it to arrow function after playing around for a while and realized i could change.
 document.addEventListener('DOMContentLoaded', () => {
