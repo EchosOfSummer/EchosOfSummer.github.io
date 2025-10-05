@@ -69,7 +69,8 @@ let currentImage = 0
 const showImages = () => {
     images.forEach((image, index) => {
         image.classList.remove('active', 'prev', 'next')
-        const imageIndex = (index + currentImage) % urls.length
+        const imageIndex = ((index + currentImage) % urls.length + urls.length) % urls.length
+
         image.src = urls[imageIndex]
         if (index === 1) {
             image.classList.add('active')
