@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="/javaScript/todo.js" defer></script>
+    <script src="/javaScript/poke.js" defer></script>
 </head>
 
 <body id="pageTop">
     <div id="wrapper">
         <header>
             <h1>Welcome to My Website</h1>
-            <div id="welcome"><h3></h3></div>
+            <div id="poke-img"></div>
         </header>
         <nav>
-            <a href="index.html" id="home" class="active">Home</a>
-            <a href="todoList.html" id="list">Todo List</a>
+            <a href="index.html">Home</a>
+            <a href="todoList.html">Todo List</a>
             <a href="pokemon.html" id="pokemon">Pokemon</a>
-            <a href="" id="about">About</a>
+            <a href="" id="About">About</a>
             <a href="" id="contact">Contact</a>
         </nav>
         <main>
             <section>
-                <h2 class="active">Greetings</h2>
-                <h3 id="welcome"></h3>
-                <div>
-                    <div>
-                        <ul class="todo-list" id="todo-list">
-                            <!-- list items will go here -->
-                        </ul>
-                        <input type="text" id="new-todo" placeholder="Add a new item...">
-                        <button type="button" id="add-todo">Add To Do</button>
-                    </div>
+                <h2>Pokemon Fetcher/Generator</h2>
+                <div id="carousel">
+                    <img alt="Image 1">
+                    <img alt="Image 2">
+                    <img alt="Image 3">
                 </div>
+                <div id="buttons">
+                    <button id="prev">Previous</button>
+                    <button id="next">Next</button>
+                </div>
+
             </section>
         </main>
         <footer>
@@ -42,8 +42,11 @@
                 <p><a id="fork" href="https://github.com/fvtc/js-ryans-webpage">Forked this project on GitHub.</a></p>
                 <p><a href="#pageTop">Back to Top</a></p>
             </div>
+            <div id="poke-img"></div>
             <p><span>&copy;</span> 2025 Neebin's webpage. All rights reserved.</p>
         </footer>
     </div>
+
 </body>
+
 </html>

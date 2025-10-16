@@ -84,3 +84,5 @@ input.addEventListener('keydown', (e) => {
 })
 
 renderTodos()
+
+// Assignment 7 - Pokemon Image
