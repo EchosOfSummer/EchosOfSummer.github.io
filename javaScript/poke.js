@@ -1,7 +1,7 @@
 
 
 // Pokemon Image Fetcher/Generator
-//v1 i believe this does what is wanted. 
+//first version that i came up with that works.
 
 const pokeImg = document.getElementById('poke-img')
 
@@ -26,7 +26,9 @@ getRandomPokemon1().then(renderPokemon1)
 
 
 /* ////////////
-I was curious how i could get the carousel to work with the pokemon api, this is what i came up with. Took me a while get it working to how i wanted. It was a fun challenge.
+// Second version that i that i was curious about several things and i think i go them to work, mostly...
+
+i could get the carousel to work with the pokemon api, this is what i came up with. Took me a while to get it working to how i wanted. It was a fun challenge.
  */
 const img = document.querySelectorAll('#carousel img')
 let pokeArrays = [null, null, null]
